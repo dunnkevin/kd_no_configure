@@ -22,6 +22,8 @@ view: etl_jobs {
     ]
     sql: ${TABLE}."COMPLETED_AT" ;;
   }
+  
+  HULLOOO
 
   measure: count {
     type: count
