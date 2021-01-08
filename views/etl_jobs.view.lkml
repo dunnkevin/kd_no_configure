@@ -8,6 +8,9 @@ view: etl_jobs {
     type: number
     sql: ${TABLE}."ID" ;;
   }
+  
+  boop
+  asdfasdf
 
   dimension_group: completed {
     type: time
