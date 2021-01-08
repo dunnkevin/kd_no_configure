@@ -22,6 +22,10 @@ view: etl_jobs {
     ]
     sql: ${TABLE}."COMPLETED_AT" ;;
   }
+  
+  dimension: new_dim {
+    boop
+  }
 
   measure: count {
     type: count
